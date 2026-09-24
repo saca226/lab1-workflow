@@ -3,6 +3,8 @@ library(psych)
 library(broom)
 library(gt)
 library(performance)
+#install.packages("dplyr")
+library(dplyr)
 
 # Load the example BFI data included with the psych package
 data("bfi", package = "psych")

@@ -374,3 +374,9 @@ error: failed to push some refs to 'https://github.com/saca226/lab1-workflow.git
 *According to github shown in the repository at the bottom of the page, to push an existing respository from the command line in Terminal we need to copy and paste:
   +git branch -M main (the M represents 'master' that is seen on the top right corner near the refresh button. This turns to 'main' after.)
   +git push -u origin main (not just this line as it can't be first since you need to push to 'master' first.)
+
+### Github error with URL
+* Error found in bfi_script.R: 
+  + Error in mutate(tidy(model_2, conf.int = TRUE, conf.level = 0.95), term = recode(term,  : 
+  could not find function "mutate" 
+* Solution: install.packages “dplyr” for mutate function to work
