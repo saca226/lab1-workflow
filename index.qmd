@@ -357,6 +357,7 @@ Look at those results! Incredible!
 
 ## Notes
 Above is the pasted information from index.qmd
+
 ### Step 4: 
 * New Quarto document created (file > new file, quarto document > title: index) After the folder tab was labeled: Untitled1. I want to save this file, but I was worried that if I name this file 'index' this would replace the provided 'index.qmd' file provided from the lab assignment. (I put that file into a folder named script nested in the assignment1 folder) I wasn't sure what to do, so before saving I copied the content from index.qmd provided for the assignment and pasted it into the source code section. When I saved the file on my computer using ctl+s I saved it as 'index'. Thankfully the duplicate file error didn't show up.
 * No need for .csv file because the data comes from package psych
@@ -364,6 +365,12 @@ Above is the pasted information from index.qmd
 ### Model Diagnostics error
 * Rendering the first chunk of this section leads to an error:
   + Error in loadNamespace(x) : there is no package called ‘see’
-According to [Credibly Curious](https://www.njtierney.com/posts/2020-05-29-there-is-no-pkg/index.html) the solution is to install the 'see' package 
+* According to [Credibly Curious](https://www.njtierney.com/posts/2020-05-29-there-is-no-pkg/index.html) the solution is to install the 'see' package 
 
-
+### git push error
+* After confirming my account/identity, I was able to click commit with a comment. I then followed the instructions to add the 'git push...' to the Terminal. This error shows:
+  + error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/saca226/lab1-workflow.git'
+*According to github shown in the repository at the bottom of the page, to push an existing respository from the command line in Terminal we need to copy and paste:
+  +git branch -M main (the M represents 'master' that is seen on the top right corner near the refresh button. This turns to 'main' after.)
+  +git push -u origin main (not just this line as it can't be first since you need to push to 'master' first.)
