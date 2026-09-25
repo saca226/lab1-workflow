@@ -380,3 +380,7 @@ error: failed to push some refs to 'https://github.com/saca226/lab1-workflow.git
   + Error in mutate(tidy(model_2, conf.int = TRUE, conf.level = 0.95), term = recode(term,  : 
   could not find function "mutate" 
 * Solution: install.packages “dplyr” for mutate function to work
+
+### Github error running jekyll
+* Due to _quarto.yml starting off with an underscore the solution was to run copy Nul .nojekyll
+* Also to include output-dir: docs in the .yml file the /doc not being created
