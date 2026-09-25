@@ -1,5 +1,6 @@
 project:
   title: "QuartoDataManage"
+  output-dir: docs
 
 editor: visual
 
